@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot_first.png) ![](./images/Screenshot_second.png)
+![](./src/images/Screenshot_first.png) ![](./src/images/Screenshot_second.png)
 
 ### Links
 
@@ -44,12 +44,14 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- React
 
 ### What I learned
 
 - Customizing radio buttion group to make rating widget
 - CSS flex property and display item center
 - A bit of vanilla javascript
+- State management and passing data to another page using useNavigation and useLocation hook in react.
 
 ### Useful resources
 
