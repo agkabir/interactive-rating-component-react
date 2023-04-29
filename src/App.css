@@ -1,0 +1,123 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-weight: 400;
+  --mobile-width: 375px;
+  --mobile-height: 375px;
+  --desktop-width: 1440px;
+  --backgroundColor: #141518;
+  --formBackgroundColor: #222832;
+  --circleBackgroundColor: #262e37;
+  --buttonBackgroundColor: #ef7517;
+  --radioSelectedColor: #7e8796;
+  --borderRadius: 1.5rem;
+  --white: #ffffff;
+}
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+body {
+  font-family: "Overpass";
+  background: var(--backgroundColor);
+  /*font-family: var(--bodyFont);*/
+  font-weight: var(--font-weight);
+  line-height: 1.75;
+  color: var(--white);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.form,
+.thank-you {
+  background-color: var(--formBackgroundColor);
+  width: var(--mobile-width);
+  height: var(--mobile-height);
+  border-radius: var(--borderRadius);
+}
+
+.form-elements {
+  margin: 1.5rem;
+  /* border: 1px solid red; */
+}
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: var(--circleBackgroundColor);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+h3 {
+  margin: 1rem 0 0 0;
+}
+.form-elements p {
+  font-size: 15px;
+  margin: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + label {
+  background-color: var(--radioSelectedColor);
+}
+
+.rating-elements {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.rating-elements label {
+  cursor: pointer;
+}
+.rating-elements label:hover {
+  background-color: var(--buttonBackgroundColor);
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: var(--borderRadius);
+  background-color: var(--buttonBackgroundColor);
+  border: none;
+  margin-top: 1rem;
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.rating-text {
+  text-align: center;
+  color: var(--buttonBackgroundColor);
+  background-color: var(--circleBackgroundColor);
+  border-radius: var(--borderRadius);
+  width: 60%;
+}
+.thank-you p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
