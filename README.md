@@ -55,7 +55,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Stackoverflow](https://www.stacoverflow.com) - This helped me to discover how to customize radio buttion and make it like a rating circle.
+- [Stackoverflow](https://www.stackoverflow.com) - This helped me to discover how to customize radio buttion and make it like a rating circle.
 
 ## Author
 
