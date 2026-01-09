@@ -61,7 +61,7 @@ Users should be able to:
 
 <!-- - Website - [Add your name here](https://www.linkedin.com/in/mdagkabir/) -->
 
-- Linked In - [Alamgir Kabir](https://www.linkedin.com/in/mdagkabir)
+- Linked In - [Alamgir Kabir](https://www.linkedin.com/in/agkabir)
 
 ## Acknowledgments
 
